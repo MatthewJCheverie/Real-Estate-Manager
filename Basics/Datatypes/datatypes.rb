@@ -84,3 +84,34 @@ puts 'Hello, #{name}' #=>  "Hello, #{name}"
 
 # Downcase
 "Hello".downcase #=> "hello"
+
+# Empty
+"hello".empty? #=> false
+"".empty? #=> true
+
+# Length
+"hello",length #=> 5
+
+# Reverse
+"hello".reverse #=> "olleh"
+
+# Strip 
+"hello, world     ".strip #=> "hello, world"
+
+# More examples showcasing possibilities
+"he77o".sub("7", "l")           #=> "hel7o"
+
+"he77o".gsub("7", "l")          #=> "hello"
+
+"hello".insert(-1, " dude")     #=> "hello dude"
+
+"hello world".delete("l")       #=> "heo word"
+
+"!".prepend("hello, ", "world") #=> "hello, world!"
+
+# Converting other objects to strings
+5.to_s #=> "5"
+
+nil.to_s #=> ""
+
+:symbol.to_s #=> "symbol"
