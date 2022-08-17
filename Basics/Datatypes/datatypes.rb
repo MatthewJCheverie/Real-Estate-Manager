@@ -115,3 +115,13 @@ puts 'Hello, #{name}' #=>  "Hello, #{name}"
 nil.to_s #=> ""
 
 :symbol.to_s #=> "symbol"
+
+# Create a symbol
+:my_symbol
+
+# Sybols vs Strings
+"string" = "string" #=> true
+
+"string".object_id == "string".object_id #=> false
+
+:symbol.object_id = :symbol.object_id #=> true
