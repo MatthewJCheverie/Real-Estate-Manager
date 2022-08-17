@@ -1,0 +1,1 @@
+# The bastards book of ruby on numbers
